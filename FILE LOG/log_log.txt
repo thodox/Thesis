@@ -1,0 +1,1221 @@
+[2024-07-06 20:28:38] Initial RAM Usage: 75.5%
+[2024-07-06 20:28:38] Start training models...
+[2024-07-06 20:28:41] GaussianNB RAM Usage: 75.6%
+[2024-07-06 20:28:41] GaussianNB Accuracy: 0.836402784426008
+[2024-07-06 20:28:48] DecisionTreeClassifier(max_depth=1) RAM Usage: 75.4%
+[2024-07-06 20:28:48] DecisionTreeClassifier(max_depth=1) Accuracy: 0.8877274357103871
+[2024-07-06 20:30:51] DecisionTreeClassifier RAM Usage: 76.2%
+[2024-07-06 20:30:51] DecisionTreeClassifier Accuracy: 0.998708820469523
+[2024-07-06 20:31:37] LogisticRegression RAM Usage: 79.9%
+[2024-07-06 20:31:37] LogisticRegression Accuracy: 0.9292571390217063
+[2024-07-06 20:31:37] Saved all models
+[2024-07-06 20:34:26] Ensemble Voting Classifier RAM Usage: 83.3%
+[2024-07-06 20:34:29] Ensemble Voting Classifier Accuracy: 0.9675244502772239
+[2024-07-06 20:34:29] Saved ensemble model
+[2024-07-06 20:34:29] Total Training Time: 350.89299154281616 seconds
+[2024-07-06 20:34:29] Final RAM Usage: 83.4%
+[2024-07-06 20:39:00] Loaded gnb model in 0.0010 seconds
+[2024-07-06 20:39:00] Loaded dt model in 0.0020 seconds
+[2024-07-06 20:39:00] Loaded tdt model in 0.0050 seconds
+[2024-07-06 20:39:00] Loaded logic model in 0.0050 seconds
+[2024-07-06 20:39:24] Loaded gnb model in 0.0000 seconds
+[2024-07-06 20:39:24] Loaded dt model in 0.0000 seconds
+[2024-07-06 20:39:24] Loaded tdt model in 0.0010 seconds
+[2024-07-06 20:39:24] Loaded logic model in 0.0010 seconds
+[2024-07-06 20:39:24] Loaded en_ml model in 0.0070 seconds
+
+
+
+PHASE1: TESTING
+
+[2024-07-06 20:39:25] Model: gnb
+[2024-07-06 20:39:25] Accuracy: 0.8988, Precision: 0.9681, Recall: 0.9807, F1: 0.8021
+[2024-07-06 20:39:25] Test Time: 0.7112 seconds
+[2024-07-06 20:39:25] RAM Usage for testing: 0.00%, CPU Usage for testing: 5.30%
+[2024-07-06 20:39:26] Model: dt
+[2024-07-06 20:39:26] Accuracy: 0.8877, Precision: 0.8999, Recall: 0.8877, F1: 0.8694
+[2024-07-06 20:39:26] Test Time: 0.0974 seconds
+[2024-07-06 20:39:26] RAM Usage for testing: 0.00%, CPU Usage for testing: 3.70%
+[2024-07-06 20:39:27] Model: tdt
+[2024-07-06 20:39:27] Accuracy: 0.9987, Precision: 0.9987, Recall: 0.9987, F1: 0.9987
+[2024-07-06 20:39:27] Test Time: 0.1523 seconds
+[2024-07-06 20:39:27] RAM Usage for testing: 0.00%, CPU Usage for testing: 21.70%
+[2024-07-06 20:39:27] Model: logic
+[2024-07-06 20:39:27] Accuracy: 0.9293, Precision: 0.9279, Recall: 0.9293, F1: 0.9283
+[2024-07-06 20:39:27] Test Time: 0.0510 seconds
+[2024-07-06 20:39:27] RAM Usage for testing: 0.00%, CPU Usage for testing: 1.70%
+[2024-07-06 20:39:30] Model: en_ml
+[2024-07-06 20:39:30] Accuracy: 0.9988, Precision: 0.9707, Recall: 0.9875, F1: 0.9790
+[2024-07-06 20:39:30] Test Time: 2.6094 seconds
+[2024-07-06 20:39:30] RAM Usage for testing: 0.00%, CPU Usage for testing: 1.30%
+[2024-07-06 21:08:14] dnn test
+[2024-07-06 21:08:14] Loss: 0.10813287645578384
+[2024-07-06 21:08:14] Accuracy: 0.9621318769440553
+[2024-07-06 21:08:14] Precision: 0.8957444181863073
+[2024-07-06 21:08:14] Recall: 0.9135228468393931
+[2024-07-06 21:08:14] F1-score: 0.9045462842997137
+[2024-07-06 21:08:14] Time: 2024-07-06 21:08:14
+[2024-07-06 21:08:14] Path: c:\Users\thodo\OneDrive\Máy tính\ids
+[2024-07-06 21:08:14] CPU Usage: 10.30% -> 9.90%
+[2024-07-06 21:08:14] RAM Usage: 48.00% -> 48.20%
+[2024-07-06 21:08:14] Execution Time: 15.54 seconds
+[2024-07-06 21:14:47] lstm test
+[2024-07-06 21:14:47] Loss: 0.07550382614135742
+[2024-07-06 21:14:47] Accuracy: 0.96142057832832
+[2024-07-06 21:14:47] Precision: 0.8468116562268996
+[2024-07-06 21:14:47] Recall: 0.9786954684029245
+[2024-07-06 21:14:47] F1-score: 0.9079895875050059
+[2024-07-06 21:14:47] Time: 2024-07-06 21:14:47
+[2024-07-06 21:14:47] Path: c:\Users\thodo\OneDrive\Máy tính\ids
+[2024-07-06 21:14:47] CPU Usage: 19.80% -> 18.80%
+[2024-07-06 21:14:47] RAM Usage: 49.40% -> 48.30%
+[2024-07-06 21:14:47] Execution Time: 195.96 seconds
+
+
+Tan cong doi khang:
+
+
+
+FGSM ATTACK:
+[2024-07-06 21:43:34] Attack started at 2024-07-06 21:43:29.114309, RAM usage: 49.2%, Data load: 49.8%, CPU usage: 4.9%, Epsilon: 0.01, Gradient Mean: 1.5756363325181155e-07, Gradient Std: 2.7387914087739773e-06
+
+ZOO ATTACK - 2024-07-06 21:58:15.327850
+Max iterations: 10, Epsilon: 0.01, Num samples: 50, Sigma: 0.001
+Iteration 0, Loss: 54218.13671875
+Iteration 1, Loss: 53883.9140625
+Iteration 2, Loss: 53732.53515625
+Iteration 3, Loss: 53608.3125
+Iteration 4, Loss: 53608.3125
+Iteration 5, Loss: 53541.54296875
+Iteration 6, Loss: 53483.9765625
+Iteration 7, Loss: 53462.9453125
+Iteration 8, Loss: 53462.9453125
+Iteration 9, Loss: 53462.9453125
+Initial RAM Usage: 49.6%, Initial CPU Usage: 6.5%
+Final RAM Usage: 50.7%, Final CPU Usage: 36.3%
+
+Timestamp: 2024-07-06 22:36:05.539757
+Attack: DeepFool Attack
+Epsilon: 0.01
+
+Iteration 0, Loss: 87730.6640625
+Iteration 0, CPU Usage: 3.3%
+Iteration 0, RAM Usage: 49.1%
+Iteration 1, Loss: 54355.4765625
+Iteration 1, CPU Usage: 81.5%
+Iteration 1, RAM Usage: 49.5%
+Iteration 2, Loss: 56589.55859375
+Iteration 2, CPU Usage: 92.5%
+Iteration 2, RAM Usage: 49.3%
+Iteration 3, Loss: 60370.14453125
+Iteration 3, CPU Usage: 85.4%
+Iteration 3, RAM Usage: 49.3%
+Iteration 4, Loss: 63202.203125
+Iteration 4, CPU Usage: 84.8%
+Iteration 4, RAM Usage: 49.3%
+Iteration 5, Loss: 65902.875
+Iteration 5, CPU Usage: 90.0%
+Iteration 5, RAM Usage: 49.4%
+Iteration 6, Loss: 67856.1328125
+Iteration 6, CPU Usage: 91.3%
+Iteration 6, RAM Usage: 49.3%
+Iteration 7, Loss: 69412.109375
+Iteration 7, CPU Usage: 83.9%
+Iteration 7, RAM Usage: 49.3%
+Iteration 8, Loss: 70684.28125
+Iteration 8, CPU Usage: 99.1%
+Iteration 8, RAM Usage: 49.3%
+Iteration 9, Loss: 72312.265625
+Iteration 9, CPU Usage: 91.2%
+Iteration 9, RAM Usage: 49.3%
+
+
+
+{'timestamp': '2024-07-06 22:42:26.555735', 'attack': 'Carlini-Wagner Attack', 'max_iterations': 10, 'learning_rate': 0.01, 'confidence': 1}
+{'iteration': 0, 'loss': 46634.85, 'cpu_usage': 4.0, 'ram_usage': 50.4}
+{'iteration': 1, 'loss': 45632.562, 'cpu_usage': 77.9, 'ram_usage': 50.6}
+{'iteration': 2, 'loss': 44675.562, 'cpu_usage': 97.4, 'ram_usage': 50.6}
+{'iteration': 3, 'loss': 43738.96, 'cpu_usage': 89.2, 'ram_usage': 50.6}
+{'iteration': 4, 'loss': 42792.055, 'cpu_usage': 95.0, 'ram_usage': 50.6}
+{'iteration': 5, 'loss': 41847.473, 'cpu_usage': 94.5, 'ram_usage': 50.6}
+{'iteration': 6, 'loss': 40856.89, 'cpu_usage': 74.8, 'ram_usage': 50.6}
+{'iteration': 7, 'loss': 39923.207, 'cpu_usage': 83.5, 'ram_usage': 50.6}
+{'iteration': 8, 'loss': 39126.758, 'cpu_usage': 73.4, 'ram_usage': 50.7}
+{'iteration': 9, 'loss': 38495.35, 'cpu_usage': 95.5, 'ram_usage': 50.6}
+GaussianNB testing FGSM attack
+DETECTION RATES: 0.11726935079183791
+Time: 2024-07-06 22:53:31
+CPU Usage: 4.2%
+RAM Usage: 53.4%
+
+DT testing FGSM Attack
+DETECTION RATES: 0.0077430146496758005
+Time: 2024-07-06 22:53:32
+CPU Usage: 11.9%
+RAM Usage: 53.4%
+
+LogisticRegression testing FGSM attack
+DETECTION RATES: 0.4394632948730631
+Time: 2024-07-06 22:53:32
+CPU Usage: 9.0%
+RAM Usage: 53.4%
+
+Ensemble ML testing FGSM attack
+DETECTION RATES: 0.11817764867757223
+Time: 2024-07-06 22:53:35
+CPU Usage: 11.2%
+RAM Usage: 53.3%
+
+
+
+
+DNN testing FGSM attack:
+Loss: 0.10813287645578384
+Detection rates: 0.4504438069372375
+Time: 2024-07-07 00:03:23
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM testing FGSM attack:
+Loss: 0.07550382614135742
+Detection rates: 0.29511587542829393
+Time: 2024-07-07 00:06:42
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 00:06:42] Loaded DNN and LSTM models
+[2024-07-07 00:10:24] Ensemble Model: Sorted Voting Ensemble Deep Learning
+[2024-07-07 00:10:24] Recall: 0.4196
+[2024-07-07 00:10:24] Time: 2024-07-07 00:10:24
+[2024-07-07 00:10:24] Path: c:\Users\thodo\OneDrive\Máy tính\ids
+[2024-07-07 00:19:29] Loaded DNN and LSTM models
+[2024-07-07 00:20:01] Loaded DNN and LSTM models
+Ensemble Deep Learning  testing FGSM attack :
+Recall: 0.41955268577389676
+Execution Time: 0.154615 seconds
+CPU Usage: 9.7%
+RAM Usage: 51.6%
+Time: 2024-07-07 00:23:33
+
+LOAD MODEL DA DUOC HUAN LUYEN DOI KHANG
+
+
+
+
+
+gnb_fgsm:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000956 seconds
+tdt_fgsm:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+logic_fgsm:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+dnn_fgsm:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.080783 seconds
+lstm_fgsm:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.073803 seconds
+en_ml_fgsm:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.005984 seconds
+gnb_cw:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+tdt_cw:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+logic_cw:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+dnn_cw:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.049897 seconds
+lstm_cw:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.070824 seconds
+en_ml_cw:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.024934 seconds
+gnb_zoo:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+tdt_zoo:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000997 seconds
+logic_zoo:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+dnn_zoo:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.048906 seconds
+lstm_zoo:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.070812 seconds
+en_ml_zoo:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.005982 seconds
+gnb_df:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+tdt_df:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+logic_df:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+dnn_df:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.05887 seconds
+lstm_df:
+Time: 2024-07-07 01:59:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.069842 seconds
+en_ml_df:
+Time: 2024-07-07 01:59:44
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.004988 seconds
+{'timestamp': '2024-07-07 01:59:44.303749', 'attack': 'Carlini-Wagner Attack', 'max_iterations': 10, 'learning_rate': 0.01, 'confidence': 1}
+{'iteration': 0, 'loss': 46634.85, 'cpu_usage': 28.3, 'ram_usage': 74.0}
+{'iteration': 1, 'loss': 45632.562, 'cpu_usage': 58.3, 'ram_usage': 74.3}
+{'iteration': 2, 'loss': 44675.562, 'cpu_usage': 81.9, 'ram_usage': 74.3}
+{'iteration': 3, 'loss': 43738.96, 'cpu_usage': 89.3, 'ram_usage': 74.3}
+{'iteration': 4, 'loss': 42792.055, 'cpu_usage': 72.3, 'ram_usage': 74.3}
+{'iteration': 5, 'loss': 41847.473, 'cpu_usage': 91.3, 'ram_usage': 74.0}
+{'iteration': 6, 'loss': 40856.89, 'cpu_usage': 86.2, 'ram_usage': 73.8}
+{'iteration': 7, 'loss': 39923.207, 'cpu_usage': 78.5, 'ram_usage': 73.7}
+{'iteration': 8, 'loss': 39126.758, 'cpu_usage': 84.4, 'ram_usage': 73.5}
+{'iteration': 9, 'loss': 38495.35, 'cpu_usage': 88.3, 'ram_usage': 73.3}
+Timestamp: 2024-07-07 01:59:51.926724
+Attack: DeepFool Attack
+Epsilon: 0.01
+
+Iteration 0, Loss: 87730.6640625
+Iteration 0, CPU Usage: 14.3%
+Iteration 0, RAM Usage: 72.7%
+Iteration 1, Loss: 54355.4765625
+Iteration 1, CPU Usage: 86.3%
+Iteration 1, RAM Usage: 72.5%
+Iteration 2, Loss: 56589.55859375
+Iteration 2, CPU Usage: 90.9%
+Iteration 2, RAM Usage: 72.5%
+Iteration 3, Loss: 60370.14453125
+Iteration 3, CPU Usage: 74.8%
+Iteration 3, RAM Usage: 72.5%
+Iteration 4, Loss: 63202.203125
+Iteration 4, CPU Usage: 93.8%
+Iteration 4, RAM Usage: 72.5%
+Iteration 5, Loss: 65902.875
+Iteration 5, CPU Usage: 79.4%
+Iteration 5, RAM Usage: 72.6%
+Iteration 6, Loss: 67856.1328125
+Iteration 6, CPU Usage: 89.2%
+Iteration 6, RAM Usage: 72.5%
+Iteration 7, Loss: 69412.109375
+Iteration 7, CPU Usage: 94.1%
+Iteration 7, RAM Usage: 72.5%
+Iteration 8, Loss: 70684.28125
+Iteration 8, CPU Usage: 79.2%
+Iteration 8, RAM Usage: 72.5%
+Iteration 9, Loss: 72312.265625
+Iteration 9, CPU Usage: 80.5%
+Iteration 9, RAM Usage: 72.5%
+[2024-07-07 02:00:05] Attack started at 2024-07-07 02:00:00.172467, RAM usage: 73.0%, Data load: 73.4%, CPU usage: 17.4%, Epsilon: 0.01, Gradient Mean: 1.5756363325181155e-07, Gradient Std: 2.7387914087739773e-06
+ZOO ATTACK - 2024-07-07 02:00:05.679651
+Max iterations: 10, Epsilon: 0.01, Num samples: 50, Sigma: 0.001
+Iteration 0, Loss: 54217.75
+Iteration 1, Loss: 54217.75
+Iteration 2, Loss: 54217.75
+Iteration 3, Loss: 54217.75
+Iteration 4, Loss: 54217.75
+Iteration 5, Loss: 54217.75
+Iteration 6, Loss: 54217.75
+Iteration 7, Loss: 54217.75
+Iteration 8, Loss: 54217.75
+Iteration 9, Loss: 54217.75
+Initial RAM Usage: 73.2%, Initial CPU Usage: 12.5%
+Final RAM Usage: 74.6%, Final CPU Usage: 36.2%
+gnb_fgsm:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+tdt_fgsm:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000997 seconds
+logic_fgsm:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+dnn_fgsm:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.057844 seconds
+lstm_fgsm:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.075797 seconds
+en_ml_fgsm:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.001995 seconds
+gnb_cw:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+tdt_cw:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+logic_cw:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000999 seconds
+dnn_cw:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.049867 seconds
+lstm_cw:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.072805 seconds
+en_ml_cw:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.009966 seconds
+gnb_zoo:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+tdt_zoo:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000994 seconds
+logic_zoo:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+dnn_zoo:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.060837 seconds
+lstm_zoo:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.095744 seconds
+en_ml_zoo:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.001994 seconds
+gnb_df:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.0 seconds
+tdt_df:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000998 seconds
+logic_df:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.000997 seconds
+dnn_df:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.049867 seconds
+lstm_df:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.076767 seconds
+en_ml_df:
+Time: 2024-07-07 02:04:43
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+Execution Time: 0.002993 seconds
+{'timestamp': '2024-07-07 02:04:47.868265', 'attack': 'Carlini-Wagner Attack', 'max_iterations': 10, 'learning_rate': 0.01, 'confidence': 1}
+{'iteration': 0, 'loss': 46634.85, 'cpu_usage': 12.1, 'ram_usage': 74.5}
+{'iteration': 1, 'loss': 45632.562, 'cpu_usage': 80.4, 'ram_usage': 74.5}
+{'iteration': 2, 'loss': 44675.562, 'cpu_usage': 72.1, 'ram_usage': 74.5}
+{'iteration': 3, 'loss': 43738.96, 'cpu_usage': 90.7, 'ram_usage': 74.5}
+{'iteration': 4, 'loss': 42792.055, 'cpu_usage': 80.9, 'ram_usage': 74.5}
+{'iteration': 5, 'loss': 41847.473, 'cpu_usage': 79.2, 'ram_usage': 74.5}
+{'iteration': 6, 'loss': 40856.89, 'cpu_usage': 87.7, 'ram_usage': 74.5}
+{'iteration': 7, 'loss': 39923.207, 'cpu_usage': 67.0, 'ram_usage': 74.5}
+{'iteration': 8, 'loss': 39126.758, 'cpu_usage': 98.4, 'ram_usage': 74.4}
+{'iteration': 9, 'loss': 38495.35, 'cpu_usage': 84.6, 'ram_usage': 74.4}
+Timestamp: 2024-07-07 02:04:54.439788
+Attack: DeepFool Attack
+Epsilon: 0.01
+
+Iteration 0, Loss: 87730.6640625
+Iteration 0, CPU Usage: 13.3%
+Iteration 0, RAM Usage: 74.6%
+Iteration 1, Loss: 54355.4765625
+Iteration 1, CPU Usage: 75.8%
+Iteration 1, RAM Usage: 74.6%
+Iteration 2, Loss: 56589.55859375
+Iteration 2, CPU Usage: 86.1%
+Iteration 2, RAM Usage: 74.5%
+Iteration 3, Loss: 60370.14453125
+Iteration 3, CPU Usage: 69.2%
+Iteration 3, RAM Usage: 74.5%
+Iteration 4, Loss: 63202.203125
+Iteration 4, CPU Usage: 87.5%
+Iteration 4, RAM Usage: 74.5%
+Iteration 5, Loss: 65902.875
+Iteration 5, CPU Usage: 89.7%
+Iteration 5, RAM Usage: 74.5%
+Iteration 6, Loss: 67856.1328125
+Iteration 6, CPU Usage: 80.9%
+Iteration 6, RAM Usage: 74.5%
+Iteration 7, Loss: 69412.109375
+Iteration 7, CPU Usage: 69.5%
+Iteration 7, RAM Usage: 74.5%
+Iteration 8, Loss: 70684.28125
+Iteration 8, CPU Usage: 60.4%
+Iteration 8, RAM Usage: 74.5%
+Iteration 9, Loss: 72312.265625
+Iteration 9, CPU Usage: 75.8%
+Iteration 9, RAM Usage: 74.5%
+[2024-07-07 02:05:08] Attack started at 2024-07-07 02:05:02.864686, RAM usage: 75.1%, Data load: 75.7%, CPU usage: 17.1%, Epsilon: 0.01, Gradient Mean: 1.5756363325181155e-07, Gradient Std: 2.7387914087739773e-06
+ZOO ATTACK - 2024-07-07 02:05:08.453689
+Max iterations: 10, Epsilon: 0.01, Num samples: 50, Sigma: 0.001
+Iteration 0, Loss: 54217.65234375
+Iteration 1, Loss: 53879.734375
+Iteration 2, Loss: 53728.0078125
+Iteration 3, Loss: 53607.2890625
+Iteration 4, Loss: 53607.2890625
+Iteration 5, Loss: 53607.2890625
+Iteration 6, Loss: 53607.2890625
+Iteration 7, Loss: 53607.2890625
+Iteration 8, Loss: 53528.2578125
+Iteration 9, Loss: 53528.2578125
+Initial RAM Usage: 75.6%, Initial CPU Usage: 19.4%
+Final RAM Usage: 75.9%, Final CPU Usage: 38.6%
+
+[2024-07-07 02:15:48] Loaded DNN and LSTM models
+GaussianNB defense zoo testing Zoo attack
+DETECTION RATES: 0.9998920834195167
+Time: 2024-07-07 02:15:58
+CPU Usage: 15.3%
+RAM Usage: 62.2%
+
+DT testing defense zoo Zoo Attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 02:15:58
+CPU Usage: 37.0%
+RAM Usage: 62.1%
+
+LogisticRegression defense zoo testing Zoo attack
+DETECTION RATES: 0.9996132989199349
+Time: 2024-07-07 02:15:59
+CPU Usage: 14.7%
+RAM Usage: 62.1%
+
+Ensemble ML defense zoo testing Zoo attack
+DETECTION RATES: 0.9998920834195167
+Time: 2024-07-07 02:16:02
+CPU Usage: 11.2%
+RAM Usage: 62.1%
+
+DNN defense zoo testing Zoo attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9989657994370351
+Time: 2024-07-07 02:16:17
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense zoo testing Zoo attack:
+Loss: 0.07550382614135742
+Detection rates: 0.999955034758132
+Time: 2024-07-07 02:19:48
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 02:19:48] Loaded DNN and LSTM models
+Ensemble Deep Learning testing Zoo attack :
+Recall: 0.9999460417097583
+Execution Time: 0.14165 seconds
+CPU Usage: 20.9%
+RAM Usage: 62.8%
+Time: 2024-07-07 02:23:18
+
+GaussianNB defense zoo testing before FGSM attack
+DETECTION RATES: 0.998830903711431
+Time: 2024-07-07 07:17:09
+CPU Usage: 2.8%
+RAM Usage: 64.1%
+
+DT testing defense zoo testing before FGSM Attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 07:17:09
+CPU Usage: 8.8%
+RAM Usage: 64.1%
+
+LogisticRegression defense zoo testing before FGSM attack
+DETECTION RATES: 0.9976618074228621
+Time: 2024-07-07 07:17:09
+CPU Usage: 46.2%
+RAM Usage: 64.2%
+
+Ensemble ML defense zoo testing before FGSM attack
+DETECTION RATES: 0.9993435074687267
+Time: 2024-07-07 07:17:12
+CPU Usage: 12.2%
+RAM Usage: 64.1%
+
+DNN defense zoo testing before FGSM attack:
+Loss: 0.10813287645578384
+Detection rates: 0.998534133115102
+Time: 2024-07-07 07:17:28
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense zoo testing before FGSM attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9999730208548792
+Time: 2024-07-07 07:20:55
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 07:20:56] Loaded DNN and LSTM models
+Ensemble Deep Learning testing Zoo before FGSM attack :
+Recall: 0.9998651042743959
+Execution Time: 0.144641 seconds
+CPU Usage: 23.3%
+RAM Usage: 56.2%
+Time: 2024-07-07 07:24:34
+
+GaussianNB defense zoo testing before Deepfool attack
+DETECTION RATES: 0.9999370486613848
+Time: 2024-07-07 07:24:35
+CPU Usage: 8.8%
+RAM Usage: 56.1%
+
+DT testing defense zoo testing before Deepfool  Attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 07:24:36
+CPU Usage: 18.1%
+RAM Usage: 56.3%
+
+LogisticRegression defense zoo testing before Deepfool attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 07:24:36
+CPU Usage: 22.6%
+RAM Usage: 56.4%
+
+Ensemble ML defense zoo testing before Deepfool attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 07:24:39
+CPU Usage: 10.9%
+RAM Usage: 56.3%
+
+DNN defense zoo testing before Deepfool attack:
+Loss: 0.10813287645578384
+Detection rates: 1.0
+Time: 2024-07-07 07:24:54
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense zoo testing before Deepfool attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9964927111342932
+Time: 2024-07-07 07:28:20
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 07:28:20] Loaded DNN and LSTM models
+Ensemble Deep Learning defense zoo testing Deepfool attack :
+Recall: 1.0
+Execution Time: 0.14658 seconds
+CPU Usage: 23.1%
+RAM Usage: 54.1%
+Time: 2024-07-07 07:32:01
+
+GaussianNB defense zoo testing before CW attack
+DETECTION RATES: 0.6448735127746252
+Time: 2024-07-07 07:32:02
+CPU Usage: 12.5%
+RAM Usage: 54.0%
+
+DT testing defense testing before CW  Attack
+DETECTION RATES: 0.9987949315179366
+Time: 2024-07-07 07:32:03
+CPU Usage: 37.2%
+RAM Usage: 54.3%
+
+LogisticRegression defense zoo testing before CW attack
+DETECTION RATES: 0.9921310826730937
+Time: 2024-07-07 07:32:03
+CPU Usage: 19.5%
+RAM Usage: 54.3%
+
+Ensemble ML defense zoo testing before CW attack
+DETECTION RATES: 0.9924728185112908
+Time: 2024-07-07 07:32:06
+CPU Usage: 18.3%
+RAM Usage: 54.3%
+
+DNN defense zoo testing before CW attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9938217757673319
+Time: 2024-07-07 07:32:21
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense zoo testing before CW attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9969333705046
+Time: 2024-07-07 07:35:46
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 07:35:46] Loaded DNN and LSTM models
+Ensemble Deep Learning defense zoo testing CW attack :
+Recall: 0.9999640278065056
+Execution Time: 0.145584 seconds
+CPU Usage: 20.7%
+RAM Usage: 55.8%
+Time: 2024-07-07 07:39:23
+
+GaussianNB defense FGSM testing FGSM attack
+DETECTION RATES: 0.9979315988740703
+Time: 2024-07-07 07:41:54
+CPU Usage: 5.7%
+RAM Usage: 56.4%
+
+DT testing defense FGSM FGSM Attack
+DETECTION RATES: 0.9970412870850832
+Time: 2024-07-07 07:41:54
+CPU Usage: 36.3%
+RAM Usage: 56.4%
+
+LogisticRegression defense FGSM testing FGSM attack
+DETECTION RATES: 0.9994694101459571
+Time: 2024-07-07 07:41:54
+CPU Usage: 14.6%
+RAM Usage: 56.4%
+
+Ensemble ML defense FGSM testing FGSM attack
+DETECTION RATES: 0.9996492711134293
+Time: 2024-07-07 07:41:58
+CPU Usage: 20.4%
+RAM Usage: 56.5%
+
+DNN defense FGSM testing FGSM attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9990107646789033
+Time: 2024-07-07 07:42:14
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense FGSM testing FGSM attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9998291320809015
+Time: 2024-07-07 07:45:35
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 07:45:35] Loaded DNN and LSTM models
+Ensemble Deep Learning testing FGSM attack :
+Recall: 0.9999280556130111
+Execution Time: 0.142646 seconds
+CPU Usage: 21.3%
+RAM Usage: 55.5%
+Time: 2024-07-07 07:49:15
+
+GaussianNB defense FGSM testing before zoo attack
+DETECTION RATES: 0.9835876867181669
+Time: 2024-07-07 07:51:26
+CPU Usage: 7.4%
+RAM Usage: 55.1%
+
+DT  defense FGSM testing before zoo Attack
+DETECTION RATES: 0.6652787395343399
+Time: 2024-07-07 07:51:26
+CPU Usage: 8.1%
+RAM Usage: 55.1%
+
+LogisticRegression defense FGSM testing before zoo attack
+DETECTION RATES: 0.9998021529357807
+Time: 2024-07-07 07:51:26
+CPU Usage: 15.0%
+RAM Usage: 55.0%
+
+Ensemble ML defense FGSM testing before zoo attack
+DETECTION RATES: 0.9998381251292751
+Time: 2024-07-07 07:51:29
+CPU Usage: 17.7%
+RAM Usage: 55.1%
+
+DNN defense FGSM testing before zoo attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9990737160175185
+Time: 2024-07-07 07:51:45
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense FGSM testing before zoo attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9970592731818304
+Time: 2024-07-07 07:55:04
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 07:55:04] Loaded DNN and LSTM models
+Ensemble Deep Learning defense FGSM testing zoo attack :
+Recall: 0.9998920834195167
+Execution Time: 0.157578 seconds
+CPU Usage: 19.4%
+RAM Usage: 54.8%
+Time: 2024-07-07 07:58:39
+
+GaussianNB defense FGSM testing before CW attack
+DETECTION RATES: 0.6476523647220699
+Time: 2024-07-07 07:58:40
+CPU Usage: 21.2%
+RAM Usage: 54.8%
+
+DT testing defense FGSM before CW Attack
+DETECTION RATES: 0.8389974549673103
+Time: 2024-07-07 07:58:40
+CPU Usage: 29.8%
+RAM Usage: 54.9%
+
+LogisticRegression defense FGSM testing before CW attack
+DETECTION RATES: 0.9990647229691448
+Time: 2024-07-07 07:58:41
+CPU Usage: 21.4%
+RAM Usage: 54.9%
+
+Ensemble ML defense FGSM testing before CW attack
+DETECTION RATES: 0.9924458393661699
+Time: 2024-07-07 07:58:44
+CPU Usage: 16.4%
+RAM Usage: 54.9%
+
+DNN defense FGSM testing before CW attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9991996186947489
+Time: 2024-07-07 07:58:59
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense FGSM testing before CW attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9992805561301115
+Time: 2024-07-07 08:02:18
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 08:02:18] Loaded DNN and LSTM models
+Ensemble Deep Learning defense FGSM testing before CW  attack :
+Recall: 0.9999010764678903
+Execution Time: 0.14597 seconds
+CPU Usage: 20.6%
+RAM Usage: 54.3%
+Time: 2024-07-07 08:05:56
+
+GaussianNB defense FGSM testing before deepfool attack
+DETECTION RATES: 0.9323363040369794
+Time: 2024-07-07 08:05:57
+CPU Usage: 19.7%
+RAM Usage: 54.8%
+
+DT testing defense FGSM before deepfool Attack
+DETECTION RATES: 0.6382096639297823
+Time: 2024-07-07 08:05:58
+CPU Usage: 39.1%
+RAM Usage: 55.0%
+
+LogisticRegression defense FGSM testing before deepfool attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 08:05:58
+CPU Usage: 17.5%
+RAM Usage: 55.0%
+
+Ensemble ML defense FGSM testing before deepfool attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 08:06:01
+CPU Usage: 17.9%
+RAM Usage: 55.0%
+
+DNN defense FGSM testing before deepfool attack:
+Loss: 0.10813287645578384
+Detection rates: 1.0
+Time: 2024-07-07 08:06:17
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense FGSM testing before deepfool attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9564826389201148
+Time: 2024-07-07 08:09:40
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 08:09:40] Loaded DNN and LSTM models
+Ensemble Deep Learning defense FGSM before deepfool Attack :
+Recall: 1.0
+Execution Time: 0.140217 seconds
+CPU Usage: 22.7%
+RAM Usage: 55.9%
+Time: 2024-07-07 08:13:24
+
+GaussianNB defense CW testing before CW attack
+DETECTION RATES: 0.6233261688714623
+Time: 2024-07-07 08:14:44
+CPU Usage: 5.3%
+RAM Usage: 56.1%
+
+DT testing defense CW before CW Attack
+DETECTION RATES: 0.9518871912012015
+Time: 2024-07-07 08:14:44
+CPU Usage: 9.0%
+RAM Usage: 56.1%
+
+LogisticRegression defense CW testing before CW attack
+DETECTION RATES: 0.999082709065892
+Time: 2024-07-07 08:14:45
+CPU Usage: 12.8%
+RAM Usage: 56.2%
+
+Ensemble ML defense CW testing before CW attack
+DETECTION RATES: 0.9991546534528809
+Time: 2024-07-07 08:14:48
+CPU Usage: 17.2%
+RAM Usage: 55.9%
+
+DNN defense CW testing before CW attack:
+Loss: 0.10813287645578384
+Detection rates: 0.999037743824024
+Time: 2024-07-07 08:15:04
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense CW testing before CW attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9995053823394516
+Time: 2024-07-07 08:18:28
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 08:18:28] Loaded DNN and LSTM models
+Ensemble Deep Learning defense CW testing before CW  attack :
+Recall: 0.9999370486613848
+Execution Time: 0.145116 seconds
+CPU Usage: 21.5%
+RAM Usage: 55.7%
+Time: 2024-07-07 08:22:04
+
+GaussianNB defense CW testing before FGSM attack
+DETECTION RATES: 0.11769202406539744
+Time: 2024-07-07 08:24:40
+CPU Usage: 8.3%
+RAM Usage: 56.2%
+
+DT testing defense CW before FGSM Attack
+DETECTION RATES: 0.999955034758132
+Time: 2024-07-07 08:24:40
+CPU Usage: 8.0%
+RAM Usage: 56.3%
+
+LogisticRegression defense CW testing before FGSM attack
+DETECTION RATES: 0.9991366673561337
+Time: 2024-07-07 08:24:40
+CPU Usage: 17.4%
+RAM Usage: 56.2%
+
+Ensemble ML defense CW testing before FGSM attack
+DETECTION RATES: 0.7933667275196273
+Time: 2024-07-07 08:24:43
+CPU Usage: 18.1%
+RAM Usage: 56.6%
+
+DNN defense CW testing before FGSM attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9981654181317842
+Time: 2024-07-07 08:25:00
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense CW testing before FGSM attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9993525005171002
+Time: 2024-07-07 08:28:20
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 08:28:20] Loaded DNN and LSTM models
+Ensemble Deep Learning defense CW testing before FGSM  attack :
+Recall: 0.9998920834195167
+Execution Time: 0.142943 seconds
+CPU Usage: 20.1%
+RAM Usage: 56.2%
+Time: 2024-07-07 08:31:58
+
+GaussianNB defense CW testing before DeepFool attack
+DETECTION RATES: 0.053499644774589246
+Time: 2024-07-07 08:31:59
+CPU Usage: 14.0%
+RAM Usage: 56.3%
+
+DT testing defense CW before DeepFool Attack
+DETECTION RATES: 0.9706017248666781
+Time: 2024-07-07 08:31:59
+CPU Usage: 35.0%
+RAM Usage: 56.4%
+
+LogisticRegression defense CW testing before DeepFool attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 08:31:59
+CPU Usage: 26.9%
+RAM Usage: 56.4%
+
+Ensemble ML defense CW testing before DeepFool attack
+DETECTION RATES: 0.9987679523728158
+Time: 2024-07-07 08:32:03
+CPU Usage: 21.3%
+RAM Usage: 56.4%
+
+DNN defense CW testing before DeepFool attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9999820139032528
+Time: 2024-07-07 08:32:20
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense CW testing before DeepFool attack:
+Loss: 0.07550382614135742
+Detection rates: 0.8990440389578855
+Time: 2024-07-07 08:35:44
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 08:35:45] Loaded DNN and LSTM models
+Ensemble Deep Learning defense CW testing before DeepFool  attack :
+Recall: 0.9999820139032528
+Execution Time: 0.165163 seconds
+CPU Usage: 23.4%
+RAM Usage: 57.3%
+Time: 2024-07-07 08:39:30
+
+GaussianNB defense CW testing before ZOO attack
+DETECTION RATES: 0.0
+Time: 2024-07-07 08:39:31
+CPU Usage: 23.0%
+RAM Usage: 57.6%
+
+DT testing defense CW before ZOO Attack
+DETECTION RATES: 0.9316258532154644
+Time: 2024-07-07 08:39:32
+CPU Usage: 27.9%
+RAM Usage: 57.8%
+
+LogisticRegression defense CW testing before ZOO attack
+DETECTION RATES: 0.9996312850166821
+Time: 2024-07-07 08:39:32
+CPU Usage: 27.4%
+RAM Usage: 57.8%
+
+Ensemble ML defense CW testing before ZOO attack
+DETECTION RATES: 0.5342859969243775
+Time: 2024-07-07 08:39:35
+CPU Usage: 24.7%
+RAM Usage: 57.6%
+
+DNN defense CW testing before ZOO attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9986240635988382
+Time: 2024-07-07 08:39:53
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense CW testing before ZOO attack:
+Loss: 0.07550382614135742
+Detection rates: 0.9977157657131037
+Time: 2024-07-07 08:43:16
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 08:43:16] Loaded DNN and LSTM models
+Ensemble Deep Learning defense CW testing before ZOO  attack :
+Recall: 0.9998740973227696
+Execution Time: 0.149572 seconds
+CPU Usage: 20.4%
+RAM Usage: 56.2%
+Time: 2024-07-07 08:46:51
+
+GaussianNB defense DeepFool testing before DeepFool attack
+DETECTION RATES: 0.9999370486613848
+Time: 2024-07-07 08:51:19
+CPU Usage: 4.6%
+RAM Usage: 56.1%
+
+DT testing defense DeepFool before DeepFool Attack
+DETECTION RATES: 0.9988398967598047
+Time: 2024-07-07 08:51:19
+CPU Usage: 10.2%
+RAM Usage: 56.2%
+
+LogisticRegression defense DeepFool testing before DeepFool attack
+DETECTION RATES: 0.9999640278065056
+Time: 2024-07-07 08:51:19
+CPU Usage: 15.9%
+RAM Usage: 56.1%
+
+Ensemble ML defense DeepFool testing before DeepFool attack
+DETECTION RATES: 0.9999910069516263
+Time: 2024-07-07 08:51:22
+CPU Usage: 21.8%
+RAM Usage: 56.4%
+
+DNN defense DeepFool testing before DeepFool attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9999820139032528
+Time: 2024-07-07 08:51:38
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense DeepFool testing before DeepFool attack:
+Loss: 0.07550382614135742
+Detection rates: 0.4586724461990881
+Time: 2024-07-07 08:54:57
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 08:54:57] Loaded DNN and LSTM models
+Ensemble Deep Learning defense DeepFool testing before DeepFool attack :
+Recall: 0.7084004064857865
+Execution Time: 0.155228 seconds
+CPU Usage: 17.9%
+RAM Usage: 55.3%
+Time: 2024-07-07 08:58:32
+
+GaussianNB defense DeepFool testing before FGSM attack
+DETECTION RATES: 0.998830903711431
+Time: 2024-07-07 08:59:37
+CPU Usage: 3.5%
+RAM Usage: 55.9%
+
+DT testing defense DeepFool before FGSM Attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 08:59:38
+CPU Usage: 34.5%
+RAM Usage: 55.9%
+
+LogisticRegression defense DeepFool testing before FGSM attack
+DETECTION RATES: 0.9835247353795517
+Time: 2024-07-07 08:59:38
+CPU Usage: 15.7%
+RAM Usage: 55.8%
+
+Ensemble ML defense DeepFool testing before FGSM attack
+DETECTION RATES: 0.9811775497540401
+Time: 2024-07-07 08:59:41
+CPU Usage: 18.2%
+RAM Usage: 56.1%
+
+DNN defense DeepFool testing before FGSM attack:
+Loss: 0.10813287645578384
+Detection rates: 0.8547532757178701
+Time: 2024-07-07 08:59:57
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense DeepFool testing before FGSM attack:
+Loss: 0.07550382614135742
+Detection rates: 0.34330962166245493
+Time: 2024-07-07 09:03:20
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 09:03:20] Loaded DNN and LSTM models
+Ensemble Deep Learning defense DeepFool testing before FGSM attack :
+Recall: 0.4569277948146083
+Execution Time: 0.163562 seconds
+CPU Usage: 19.3%
+RAM Usage: 54.8%
+Time: 2024-07-07 09:07:10
+
+GaussianNB defense DeepFool testing before ZOO attack
+DETECTION RATES: 0.9998740973227696
+Time: 2024-07-07 09:07:11
+CPU Usage: 13.0%
+RAM Usage: 54.8%
+
+DT testing defense DeepFool before ZOO Attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 09:07:11
+CPU Usage: 20.5%
+RAM Usage: 54.9%
+
+LogisticRegression defense DeepFool testing before ZOO attack
+DETECTION RATES: 0.9937408383319694
+Time: 2024-07-07 09:07:11
+CPU Usage: 26.6%
+RAM Usage: 54.9%
+
+Ensemble ML defense DeepFool testing before ZOO attack
+DETECTION RATES: 0.9773914763887515
+Time: 2024-07-07 09:07:15
+CPU Usage: 19.5%
+RAM Usage: 54.8%
+
+DNN defense DeepFool testing before ZOO attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9158610394165311
+Time: 2024-07-07 09:07:31
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense DeepFool testing before ZOO attack:
+Loss: 0.07550382614135742
+Detection rates: 0.34059372105362556
+Time: 2024-07-07 09:11:00
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 09:11:01] Loaded DNN and LSTM models
+Ensemble Deep Learning defense DeepFool testing before ZOO attack :
+Recall: 0.542217865589899
+Execution Time: 0.153117 seconds
+CPU Usage: 21.6%
+RAM Usage: 57.9%
+Time: 2024-07-07 09:14:45
+
+GaussianNB defense DeepFool testing before CW attack
+DETECTION RATES: 0.9998740973227696
+Time: 2024-07-07 09:14:46
+CPU Usage: 13.7%
+RAM Usage: 57.8%
+
+DT testing defense DeepFool before CW Attack
+DETECTION RATES: 1.0
+Time: 2024-07-07 09:14:46
+CPU Usage: 14.4%
+RAM Usage: 57.9%
+
+LogisticRegression defense DeepFool testing before CW attack
+DETECTION RATES: 0.9937408383319694
+Time: 2024-07-07 09:14:46
+CPU Usage: 20.7%
+RAM Usage: 57.9%
+
+Ensemble ML defense DeepFool testing before CW attack
+DETECTION RATES: 0.9773914763887515
+Time: 2024-07-07 09:14:49
+CPU Usage: 19.8%
+RAM Usage: 57.8%
+
+DNN defense DeepFool testing before CW attack:
+Loss: 0.10813287645578384
+Detection rates: 0.9158610394165311
+Time: 2024-07-07 09:15:06
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+LSTM defense DeepFool testing before CW attack:
+Loss: 0.07550382614135742
+Detection rates: 0.34059372105362556
+Time: 2024-07-07 09:18:22
+Path: c:\Users\thodo\OneDrive\Máy tính\ids
+
+[2024-07-07 09:18:22] Loaded DNN and LSTM models
+Ensemble Deep Learning defense DeepFool testing before CW attack :
+Recall: 0.542217865589899
+Execution Time: 0.151065 seconds
+CPU Usage: 20.0%
+RAM Usage: 58.0%
+Time: 2024-07-07 09:21:53
+
