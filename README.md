@@ -36,12 +36,4 @@ Train the intrusion detection systems with defense strategies and test different
 ## Kết quả:
 HIỆU SUẤT CỦA CÁC DETECTOR TRƯỚC DỮ LIỆU CICIDS 2017				
 				
-Detector	Accuracy	Precision	Recall	F1
-DT	99.85	99.58	99.52	99.55
-KNN	99.89	99.53	99.77	99.65
-LR	98.21	94.36	94.58	94.47
-DNN	99.58	99.41	97.96	98.68
-LSTM	99.73	99.49	98.86	99.17
-Ensemble ML	99.9	99.64	99.73	99.68
-Ensemble DL	99.68	99.6	98.41	99
 ![image](https://github.com/user-attachments/assets/ed73f7b1-a42d-4077-9ac5-864f57600464)
