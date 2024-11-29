@@ -37,3 +37,8 @@ Train the intrusion detection systems with defense strategies and test different
 HIỆU SUẤT CỦA CÁC DETECTOR TRƯỚC DỮ LIỆU CICIDS 2017				
 				
 ![image](https://github.com/user-attachments/assets/ed73f7b1-a42d-4077-9ac5-864f57600464)
+
+
+HIỆU SUẤT CỦA CÁC DETECTOR TRƯỚC DỮ LIỆU ĐỐI KHÁNG
+![image](https://github.com/user-attachments/assets/dfc8a2f8-b81d-4805-8ad4-b99c9a72428d)
+
