@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/68ad8486-6f56-41ad-b345-f6c4a1cbd756)# Thesis: Research on Adversarial Robustness of Machine Learning-Based Intrusion Detection Systems
+# Thesis: Research on Adversarial Robustness of Machine Learning-Based Intrusion Detection Systems
 
 
 Research, design, and develop intrusion detection systems using Machine Learning, Deep Learning, and Ensemble Learning.
@@ -40,10 +40,13 @@ HIỆU SUẤT CỦA CÁC DETECTOR TRƯỚC DỮ LIỆU CICIDS 2017
 
 
 HIỆU SUẤT CỦA CÁC DETECTOR TRƯỚC DỮ LIỆU ĐỐI KHÁNG
+
 ![image](https://github.com/user-attachments/assets/dfc8a2f8-b81d-4805-8ad4-b99c9a72428d)
 
 ROBUSNESS
+
 CW
+
 ![image](https://github.com/user-attachments/assets/af9a1d09-1c22-469b-98ac-735292180fde)
 
 
